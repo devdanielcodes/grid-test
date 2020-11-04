@@ -4,5 +4,15 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Barlow Semi Condensed', sans-serif;
+
+    /* Primary */
+    --primary-vio: hsl(263, 55%, 52%);
+    --primary-g-blue: hsl(217, 19%, 35%);
+    --primary-b-blue: hsl(219, 29%, 14%);
+    --primary-white: hsl(0, 0%, 100%);
+
+    /* Neutral */
+    --neutral-grey: hsl(0, 0%, 81%);
+    --neutral-g-blue: hsl(210, 46%, 95%);
 }
   
