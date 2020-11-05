@@ -97,6 +97,8 @@
   </div >
 </template>
 
-<script setup>
-
+<script>
+setInterval(() => {
+  
+}, interval);
 </script>
