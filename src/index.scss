@@ -132,6 +132,10 @@ body{
         .daniel{
             grid-column: 1/5;
             grid-row: 1/2;
+
+            .bg_quote{
+                width: 100px;
+            }
         }
         .jonathan{
             grid-column: 1/5;

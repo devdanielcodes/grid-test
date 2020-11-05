@@ -170,6 +170,9 @@ body {
     -ms-grid-row-span: 1;
     grid-row: 1/2;
   }
+  .helloworld .daniel .bg_quote {
+    width: 100px;
+  }
   .helloworld .jonathan {
     -ms-grid-column: 1;
     -ms-grid-column-span: 4;
