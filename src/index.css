@@ -53,9 +53,18 @@ body {
   position: relative;
 }
 
-.helloworld .set h3 {
+.helloworld .set h4 {
   z-index: 1;
   position: relative;
+  margin: 20px 0;
+  font-size: 20px;
+}
+
+.helloworld .set p {
+  z-index: 1;
+  position: relative;
+  font-size: 16px;
+  color: #cfcfcf;
 }
 
 .helloworld img {
@@ -72,6 +81,7 @@ body {
   -ms-grid-row-span: 1;
   grid-row: 1/2;
   position: relative;
+  color: white;
 }
 
 .helloworld .daniel .bg_quote {
@@ -91,6 +101,7 @@ body {
   -ms-grid-row: 1;
   -ms-grid-row-span: 1;
   grid-row: 1/2;
+  color: white;
 }
 
 .helloworld .jonathan {
@@ -121,5 +132,6 @@ body {
   -ms-grid-row: 2;
   -ms-grid-row-span: 1;
   grid-row: 2/3;
+  color: white;
 }
 /*# sourceMappingURL=index.css.map */

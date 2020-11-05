@@ -45,9 +45,17 @@ body{
             z-index: 1;
             position: relative;
         }
-        h3{
+        h4{
             z-index: 1;
             position: relative;
+            margin: 20px 0;
+            font-size: 20px;
+        }
+        p{
+            z-index: 1;
+            position: relative;
+            font-size: 16px;
+            color: $neutral-grey;
         }
     }
 
@@ -61,6 +69,7 @@ body{
         grid-column: 1/3;
         grid-row: 1/2;
         position: relative;
+        color: white;
 
         .bg_quote{
             width: 200px;
@@ -74,6 +83,8 @@ body{
         background-color: $primary-g-blue;
         grid-column: 3/4;
         grid-row: 1/2;
+        color: white;
+
     }
     .jonathan{
         background-color: $primary-white;
@@ -84,10 +95,12 @@ body{
         background-color: $primary-white;
         grid-column: 1/2;
         grid-row: 2/3;
+
     }
     .patrick{
         background-color: $primary-b-blue;
         grid-column: 2/4;
         grid-row: 2/3;
+        color: white;
     }
 }
