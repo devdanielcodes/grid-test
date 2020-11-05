@@ -98,7 +98,5 @@
 </template>
 
 <script>
-setInterval(() => {
-  
-}, interval);
+
 </script>
