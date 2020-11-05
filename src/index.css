@@ -10,7 +10,7 @@
 }
 
 body {
-  background: #cfcfcf;
+  background: #ecf2f8;
 }
 
 .helloworld {
@@ -33,10 +33,34 @@ body {
 .helloworld .set {
   border-radius: 20px;
   padding: 20px;
+  -webkit-box-shadow: 0px 0px 10px rgba(25, 33, 46, 0.219);
+          box-shadow: 0px 0px 10px rgba(25, 33, 46, 0.219);
+}
+
+.helloworld .set .name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 165px;
+  width: 28%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 1;
+  position: relative;
+}
+
+.helloworld .set h3 {
+  z-index: 1;
+  position: relative;
 }
 
 .helloworld img {
   border-radius: 200px;
+  width: 45px;
 }
 
 .helloworld .daniel {
@@ -47,6 +71,16 @@ body {
   -ms-grid-row: 1;
   -ms-grid-row-span: 1;
   grid-row: 1/2;
+  position: relative;
+}
+
+.helloworld .daniel .bg_quote {
+  width: 200px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
 
 .helloworld .jeanette {

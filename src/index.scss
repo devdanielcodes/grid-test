@@ -3,6 +3,8 @@
 $primary-vio: hsl(263, 55%, 52%);
 $primary-g-blue: hsl(217, 19%, 35%);
 $primary-b-blue: hsl(219, 29%, 14%);
+$primary-b-b: hsla(217, 30%, 14%, 0.219);
+
 $primary-white: hsl(0, 0%, 100%);
 
 /* Neutral */
@@ -15,7 +17,7 @@ $neutral-g-blue: hsl(210, 46%, 95%);
     font-family: 'Barlow Semi Condensed', sans-serif;
 }
 body{
-    background: $neutral-grey;
+    background: $neutral-g-blue;
 }
 .helloworld{
     display: grid;
@@ -32,16 +34,41 @@ body{
     .set{
         border-radius: 20px;
         padding: 20px;
+        box-shadow: 0px 0px 10px $primary-b-b;
+
+        .name{
+            display: flex;
+            width: 165px;
+            width: 28%;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 1;
+            position: relative;
+        }
+        h3{
+            z-index: 1;
+            position: relative;
+        }
     }
 
     img{
         border-radius: 200px;
+        width: 45px;
     }
 
     .daniel{
         background-color: $primary-vio;
         grid-column: 1/3;
         grid-row: 1/2;
+        position: relative;
+
+        .bg_quote{
+            width: 200px;
+            position: absolute;
+            top: 0;
+            right: 0;
+            transform: translateX(-50%);
+        }
     }
     .jeanette{
         background-color: $primary-g-blue;
