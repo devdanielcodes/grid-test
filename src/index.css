@@ -1,17 +1,91 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap");
+/* Primary */
+/* Neutral */
 * {
   padding: 0;
   margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-family: 'Barlow Semi Condensed', sans-serif;
-  /* Primary */
-  --primary-vio: hsl(263, 55%, 52%);
-  --primary-g-blue: hsl(217, 19%, 35%);
-  --primary-b-blue: hsl(219, 29%, 14%);
-  --primary-white: hsl(0, 0%, 100%);
-  /* Neutral */
-  --neutral-grey: hsl(0, 0%, 81%);
-  --neutral-g-blue: hsl(210, 46%, 95%);
+}
+
+body {
+  background: #cfcfcf;
+}
+
+.helloworld {
+  display: -ms-grid;
+  display: grid;
+  height: 90vh;
+  width: 95%;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  grid-gap: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.helloworld .set {
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.helloworld img {
+  border-radius: 200px;
+}
+
+.helloworld .daniel {
+  background-color: #7541c8;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-column: 1/3;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+}
+
+.helloworld .jeanette {
+  background-color: #48556a;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-column: 3/4;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+}
+
+.helloworld .jonathan {
+  background-color: white;
+  -ms-grid-column: 4;
+  -ms-grid-column-span: 1;
+  grid-column: 4/5;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  grid-row: 1/3;
+}
+
+.helloworld .kira {
+  background-color: white;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+}
+
+.helloworld .patrick {
+  background-color: #19212e;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-column: 2/4;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
 }
 /*# sourceMappingURL=index.css.map */
