@@ -4,7 +4,7 @@
       <div class="name">
         <img src="../assets/images/image-daniel.jpg" alt="">
         <div class="name_det">
-          <h3>Daniel Clifford</h3 >
+          <h3>Daniel Clifford</h3>
           <span>Verified Graduate</span>
         </div>
       </div>
